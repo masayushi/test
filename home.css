@@ -14,7 +14,7 @@
 }
 
 .navbar {
-  width: 1920px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border: 0.1px solid rgba(0, 0, 0, 0);
@@ -26,16 +26,13 @@
      object-fit: cover;
 }
 
-.card img {
-  height: 250px;
-  width: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .row {
   margin: 50px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.text-center {
+  background-color: #252525;
 }
 /*# sourceMappingURL=home.css.map */

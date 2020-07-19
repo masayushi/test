@@ -4,7 +4,7 @@
     font-family: 微軟正黑體;
     box-sizing: border-box;
   }
-
+// 圖片需要修正
   #bg {
     background: url(./img/Home/Hbg1920.png); 
     background-size: cover;
@@ -12,9 +12,9 @@
   }
 
   .navbar {
-      width: 1920px;
-      object-fit: cover;
-      border: 0.1px solid rgba(0,0,0,0);
+    width: 100%;
+    object-fit: cover;
+    border: 0.1px solid rgba(0,0,0,0);
   }
 
   .carousel-item{ 
@@ -24,16 +24,13 @@
         object-fit: cover;
       }
   }
-
-   
-  .card img {
-    height: 250px;
-    width: 300px;
-    object-fit: cover;
- }
   
 .row {
     margin: 50px;
     object-fit: cover;
 }
-  
+
+
+.text-center {
+  background-color: #252525;
+}
