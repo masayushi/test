@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#bg {
+  background: url(./img/Home/Hbg1920.png);
+  background-size: cover;
+  background-position: 0 -300px;
+}
+
+.navbar {
+  width: 1920px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+.carousel-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card img {
+  height: 250px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row {
+  margin: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
