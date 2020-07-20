@@ -7,10 +7,10 @@
           box-sizing: border-box;
 }
 
-#bg {
-  background: url(./img/Home/Hbg1920.png);
-  background-size: cover;
-  background-position: 0 -300px;
+body {
+  background-image: url(./img/Home/bg.png);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar {
