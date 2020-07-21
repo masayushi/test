@@ -6,10 +6,10 @@
   }
   
   body {
-    background-image: url(./img/Home/bg.png);
+    background: #252525;
+  
     object-fit: cover;
   }
-  
 
   .navbar {
     width: 100%;
@@ -25,6 +25,38 @@
       }
   }
   
+#box {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 550px;
+  height: 550px;
+}
+
+#circle {
+  animation: rotate 8s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
 .row {
   margin: 50px;
  object-fit: cover;
@@ -34,3 +66,4 @@
 .text-center {
   background-color: #252525;
 }
+
