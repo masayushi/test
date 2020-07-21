@@ -29,13 +29,14 @@ body {
 #box {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 550px;
-  height: 550px;
+  border-radius: 360px;
+  width: 595px;
+  height: 595px;
 }
 
 #circle {
-  -webkit-animation: rotate 8s infinite;
-          animation: rotate 8s infinite;
+  -webkit-animation: rotate 15s infinite;
+          animation: rotate 15s infinite;
 }
 
 @-webkit-keyframes rotate {

@@ -10,13 +10,13 @@
   
     object-fit: cover;
   }
-
+// 導覽列
   .navbar {
     width: 100%;
     object-fit: cover;
     border: 0.1px solid rgba(0,0,0,0);
   }
-
+// 輪播圖
   .carousel-item{ 
     //   object-fit: cover;
       img {
@@ -24,16 +24,17 @@
         object-fit: cover;
       }
   }
-  
+  //神奇圈圈 
 #box {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 550px;
-  height: 550px;
+  border-radius: 360px;
+  width: 595px;
+  height: 595px;
 }
 
 #circle {
-  animation: rotate 8s infinite;
+  animation: rotate 15s infinite;
 }
 
 @keyframes rotate {
@@ -56,13 +57,13 @@
     transform: rotate(360deg);
   }
 }
-
+// 酒種介紹
 .row {
   margin: 50px;
  object-fit: cover;
 }
 
-
+// footer
 .text-center {
   background-color: #252525;
 }
