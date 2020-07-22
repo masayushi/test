@@ -6,9 +6,10 @@
   }
   
   body {
-    background: #252525;
-  
+    background: url(./img/Home/bg.png); 
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 // 導覽列
   .navbar {
@@ -63,6 +64,10 @@
  object-fit: cover;
 }
 
+.card-img {
+  object-fit: cover;
+  
+}
 // footer
 .text-center {
   background-color: #252525;
