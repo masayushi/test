@@ -61,36 +61,37 @@
 // 酒種介紹
 .row {
   margin: 50px;
- object-fit: cover;
+  object-fit: cover;
 }
 // 蘭姆酒
 .sake1 {
-    box-shadow: 20px 20px #facd96;
-  }
+  box-shadow: 20px 20px #facd96;
+}
 
-  // 伏特加
-  .sake2 {
-    box-shadow: -20px 20px #e5edf8;
-  }
-  // 龍舌蘭
-  .sake3 {
-    box-shadow: 20px 20px #f8dae9;
-  }
+// 伏特加
+.sake2 {
+  box-shadow: -20px 20px #e5edf8;
+}
+// 龍舌蘭
+.sake3 {
+  box-shadow: 20px 20px #f8dae9;
+}
 
-  // 琴酒
-  .sake4 {
-    box-shadow: -20px 20px #e7dcec;
-  }
+// 琴酒
+.sake4 {
+  box-shadow: -20px 20px #e7dcec;
+}
 
-  // 威士忌
-  .sake5 {
-    box-shadow: 20px 20px #feed91;
-  }
-
+// 威士忌
+.sake5 {
+  box-shadow: 20px 20px #feed91;
+}
+// 文字區
 .word {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 // footer
