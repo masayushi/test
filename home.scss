@@ -15,7 +15,7 @@
   .navbar {
     width: 100%;
     object-fit: cover;
-    border: 0.1px solid rgba(0,0,0,0);
+    border: 0.1px solid rgb(255,255,255);
   }
 // 輪播圖
   .carousel-item{ 
@@ -25,19 +25,42 @@
         object-fit: cover;
       }
   }
+
+  #carouselExampleFade{
+    z-index: 1;
+  }
+
   //神奇圈圈 
 #box {
   display: inline-block;
-  border: 1px solid rgba( 0, 0, 0, 0.5);
+  border: 1px solid rgba( 255, 255, 255, 0.5);
   border-radius: 360px;
   width: 250px;
   height: 250px;
-  text-align: center;
+  background-color: rgba( 255, 255, 255, 0);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+  #circle{
+    width: 100%;
+    height: auto;
+  }
+
+  #r1 {
+    position: absolute;
+    top: 0;
+  }
+
 }
+ 
 
 #circle {
   animation: rotate 15s infinite;
-
 }
 
 @keyframes rotate {
@@ -96,7 +119,7 @@
   text-align: center;
 }
 
-
+// 圖文交差排列設定─大於小於某數字時看的到看不到
 .g1 {
   display: none;
 }
@@ -109,7 +132,6 @@
   .g1 { display: block; }
   .g2 { display: none; }
 }
-
 
 
 // footer
