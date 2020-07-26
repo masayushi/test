@@ -13,30 +13,26 @@
 
 <body>
     <!-- 容器 -->
-    <div class="container-fluid">
+    <div class="container-fluid col-sm-12">
         <div class="row">
             <!-- 導覽列 -->
             <nav class="navbar">
-                <img src="./img/Home/logo-01.png" alt="Logo">
+                <a href="#"><img src="./img/Home/logo-01.png" alt="Logo"></a>
                 <form class="form-inline">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><img src="./img/Home/logo90.png"
-                            alt="搜尋鍵"></button>
+                    <button class="btn btn-outline-success" type="submit" alt="搜尋鍵">search</button>
                 </form>
             </nav>
         </div>
     </div>
     <!-- 圈圈 -->
-                    <div id="box">
-                        <div class="button"><img src="./img/Home/round/ball.png" alt="球球" id="circle"></div>
-                        <div class="button"><img src="./img/Home/round/r1.png" alt="萊姆酒按鈕" id="r1"></div>
-                        <div class="button"><img src="./img/Home/round/r2.png" alt="伏特加按鈕" id="r2"></div>
-                        <div class="button"><img src="./img/Home/round/r3.png" alt="龍舌蘭按鈕" id="r3"></div>
-                        <div class="button"><img src="./img/Home/round/r4.png" alt="琴酒按鈕" id="r4"></div>
-                        <div class="button"><img src="./img/Home/round/r5.png" alt="威士忌按鈕" id="r5"></div>
-                    </div>
     <!-- 輪播圖 -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="button"><img src="./img/Home/round/r1.png" alt="萊姆酒按鈕" id="r1"></div>
+        <div class="button"><img src="./img/Home/round/r2.png" alt="伏特加按鈕" id="r2"></div>
+        <div class="button"><img src="./img/Home/round/r3.png" alt="龍舌蘭按鈕" id="r3"></div>
+        <div class="button"><img src="./img/Home/round/r4.png" alt="琴酒按鈕" id="r4"></div>
+        <div class="button"><img src="./img/Home/round/r5.png" alt="威士忌按鈕" id="r5"></div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./img/1banner-01.jpg" alt="RELAX">
@@ -48,6 +44,9 @@
                 <img src="./img/1banner-03.jpg" alt="酒吧的照片">
             </div>
             <!-- 神奇圈圈 -->
+    <div id="box">
+         <div class="button"><img src="./img/Home/round/ball.png" alt="球球" id="circle"></div>
+    </div>
             <!-- 左右按鈕 -->
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,40 +62,38 @@
     <div id="kai" class="container">
         <!-- 蘭姆酒 -->
         <div class="row">
-            <div class="col-5">
+            <div class="col-5 col-md-5 col-sm-12">
                 <img src="./img/Home/blackboard/1rum1.png" class="sake1 img-fluid" alt="蘭姆酒">
             </div>
-            <div class="col-7 word">
+            <div class="col-7 word col-md-7 col-sm-12">
                 <div class="card-body">
                     <h5 class="card-title">蘭姆酒 Rum</h5>
                     <hr>
-                    <p class="card-text">糖渣成"莫拉稀"Molasses
-                        <br>
-                        廢土成黃金</p>
+                    <p class="card-text">糖渣成"莫拉稀"Molasses</p>
+                    <p>廢土成黃金</p>
                 </div>
             </div>
         </div>
         <!-- 伏特加 -->
         <div class="row">
-            <div class="col-7 word">
+            <div class="col-7 word col-md-7 col-sm-12">
                 <div class="card-body">
                     <h5 class="card-title">伏特加 Vodka</h5>
                     <hr>
                     <p class="card-text">即便淺嚐輒止，也傷人</p>
-                    <br>
                     <p>也許，這便是愛情的酒</p>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-5 col-md-5 col-sm-12">
                 <img src="./img/Home/blackboard/2vod1.png" class="sake2 img-fluid" alt="伏特加">
             </div>
         </div>
         <!-- 龍舌蘭 -->
         <div class="row">
-            <div class="col-5">
+            <div class="col-5 col-md-5 col-sm-12">
                 <img src="./img/Home/blackboard/3teq1.png" class="sake3 img-fluid" alt="龍舌蘭">
             </div>
-            <div class="col-7 word">
+            <div class="col-7 word col-md-7 col-sm-12">
                 <div class="card-body">
                     <h5 class="card-title">龍舌蘭 Tequila</h5>
                     <hr>
@@ -108,7 +105,7 @@
         </div>
         <!-- 琴酒 -->
         <div class="row">
-            <div class="col-7 word">
+            <div class="col-7 word col-md-7 col-sm-12">
                 <div class="card-body">
                     <h5 class="card-title">琴酒 Gin</h5>
                     <hr>
@@ -116,23 +113,21 @@
                     <p>而你該來杯...無限的可能</p>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-5 col-md-5 col-sm-12">
                 <img src="./img/Home/blackboard/4gin1.png" class="sake4 img-fluid" alt="琴酒">
             </div>
         </div>
         <!-- 威士忌 -->
         <div class="row">
-            <div class="col-5">
+            <div class="col-5 col-md-5 col-sm-12">
                 <img src="./img/Home/blackboard/5whi1.png" class="sake5 img-fluid" alt="威士忌">
             </div>
-            <div class="col-7 word">
+            <div class="col-7 word col-md-7 col-sm-12">
                 <div class="card-body">
                     <h5 class="card-title">威士忌 Whisky</h5>
                     <hr>
                     <p class="card-text">「睡覺前猛灌一口溫熱的威士忌，
-                        <br>
-                        這不科學，但我爽。」</p>
-                    <br>
+                        <br>這不科學，但我爽。」</p>
                     <p>諾貝爾獎得主─科學家，亞歷山大‧弗萊明</p>
                 </div>
             </div>
