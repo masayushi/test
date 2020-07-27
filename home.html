@@ -53,18 +53,18 @@
         <!-- 圈圈 -->
         <div id="box" >
             <div class="ball"><img src="./img/Home/round/ball.png" alt="球球" id="ball"></div>
-            <div type="button" id="r1"><img src="./img/Home/round/r1.png" alt="萊姆酒按鈕"><a href="rum"></a></div>
-            <div type="button"><img src="./img/Home/round/r2.png" alt="伏特加按鈕" id="r2"></div>
-            <div type="button"><img src="./img/Home/round/r3.png" alt="龍舌蘭按鈕" id="r3"></div>
-            <div type="button"><img src="./img/Home/round/r4.png" alt="琴酒按鈕" id="r4"></div>
-            <div type="button"><img src="./img/Home/round/r5.png" alt="威士忌按鈕" id="r5"></div>
+            <div type="button" id="r1" data-to-target="rum" data-to-offset="0"><img src="./img/Home/round/r1.png" alt="萊姆酒按鈕"></div>
+            <div type="button" id="r2" data-to-target="vod" data-to-offset="0"><img src="./img/Home/round/r2.png" alt="伏特加按鈕"></div>
+            <div type="button" id="r3" data-to-target="teq" data-to-offset="0"><img src="./img/Home/round/r3.png" alt="龍舌蘭按鈕"></div>
+            <div type="button" id="r4" data-to-target="gin" data-to-offset="0"><img src="./img/Home/round/r4.png" alt="琴酒按鈕"></div>
+            <div type="button" id="r5" data-to-target="whi" data-to-offset="0"><img src="./img/Home/round/r5.png" alt="威士忌按鈕"></div>
         </div>
     </div>
     <!-- 酒種介紹 -->
     <div id="kai" class="container">
         <!-- 蘭姆酒 -->
         <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5" id="rum">
                 <img src="./img/Home/blackboard/1rum1.png" class="sake1 img-fluid" alt="蘭姆酒">
             </div>
             <div class="col-12 word col-md-7">
@@ -78,7 +78,7 @@
         </div>
         <!-- 伏特加 -->
         <div class="row">
-            <div class="col-12 word col-md-7 g2">
+            <div class="col-12 word col-md-7 g2" id="vod">
                 <div class="card-body">
                     <h5 class="card-title">伏特加 Vodka</h5>
                     <hr>
@@ -100,7 +100,7 @@
         </div>
         <!-- 龍舌蘭 -->
         <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5" id="teq">
                 <img src="./img/Home/blackboard/3teq1.png" class="sake3 img-fluid" alt="龍舌蘭">
             </div>
             <div class="col-12 word col-md-7">
@@ -115,7 +115,7 @@
         </div>
         <!-- 琴酒 -->
         <div class="row">
-            <div class="col-12 word col-md-7 g2">
+            <div class="col-12 word col-md-7 g2" id="gin">
                 <div class="card-body">
                     <h5 class="card-title">琴酒 Gin</h5>
                     <hr>
@@ -137,7 +137,7 @@
         </div>
         <!-- 威士忌 -->
         <div class="row">
-            <div class="col-12 col-md-5 ">
+            <div class="col-12 col-md-5" id="whi">
                 <img src="./img/Home/blackboard/5whi1.png" class="sake5 img-fluid" alt="威士忌">
             </div>
             <div class="col-12 word col-md-7">
@@ -167,6 +167,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="./home.js"></script>
 </body>
 
 </html>
