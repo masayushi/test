@@ -34,10 +34,10 @@ body {
 
 #box {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 360px;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: rgba(255, 255, 255, 0);
   z-index: 10;
   position: absolute;
@@ -46,19 +46,56 @@ body {
   bottom: 0;
   right: 0;
   margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#box #circle {
-  width: 100%;
+#box #ball {
+  width: 105%;
   height: auto;
 }
 
 #box #r1 {
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
-  top: 0;
+  top: -10px;
+  left: 55px;
 }
 
-#circle {
+#box #r2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+}
+
+#box #r3 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+}
+
+#box #r4 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+}
+
+#box #r5 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 70px;
+  right: 150px;
+}
+
+#ball {
   -webkit-animation: rotate 15s infinite;
           animation: rotate 15s infinite;
 }

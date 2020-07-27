@@ -33,10 +33,10 @@
   //神奇圈圈 
 #box {
   display: inline-block;
-  border: 1px solid rgba( 255, 255, 255, 0.5);
+  border: 3px solid rgba( 255, 255, 255, 0.5);
   border-radius: 360px;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: rgba( 255, 255, 255, 0);
   z-index: 10;
   position: absolute;
@@ -45,21 +45,53 @@
   bottom: 0;
   right: 0;
   margin: auto;
+  object-fit: cover;
 
-  #circle{
-    width: 100%;
+
+  #ball{
+    
+    width: 105%;
     height: auto;
   }
 
   #r1 {
+    object-fit: cover;
     position: absolute;
-    top: 0;
+    top: -10px;
+    left: 55px;
   }
 
+  #r2 {
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+  }
+
+  #r3 {
+    object-fit: cover;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+  }
+  
+  #r4 {
+    object-fit: cover;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+  }
+  
+  #r5 {
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    right: 150px;
+  }
 }
  
 
-#circle {
+#ball {
   animation: rotate 15s infinite;
 }
 
@@ -83,6 +115,7 @@
     transform: rotate(360deg);
   }
 }
+
 // 酒種介紹
 .row {
   margin: 50px;
